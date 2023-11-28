@@ -1,0 +1,428 @@
+@import "reset.css";
+/* central fone */
+.ppp {
+  width: 100vw;
+  height: 130vh;
+
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+/* central fone */
+
+/* central block */
+
+.block {
+  display: flex;
+
+  width: 1366px;
+  margin-left: 7cm;
+  height: 78vh;
+  background: rgb(245, 159, 196);
+  background: radial-gradient(
+    circle,
+    rgba(245, 159, 196, 1) 0%,
+    rgba(74, 131, 233, 1) 100%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin-top: 4.2cm;
+}
+/* central block */
+
+/* sidebar */
+.sidebar {
+  border: #fff;
+  padding: 10px;
+  box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  -webkit-box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  -moz-box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  margin-top: 11px;
+  border-radius: 12px;
+  width: 270px;
+
+  top: 12em;
+  height: 76vh;
+}
+.sidebar_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.function {
+  padding: 0;
+  margin-left: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  list-style: square;
+  text-align: left;
+}
+.li_yellow {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px;
+  font-size: 16px;
+  color: orangered;
+}
+.li_white {
+  color: #ffffff;
+}
+/* sidebar */
+
+/* menu */
+/* logo */
+.menu {
+  display: flex;
+  position: absolute;
+  width: 1366px;
+  margin-left: 7cm;
+  line-height: 75%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px 30px;
+  border-radius: 12px;
+  align-items: center;
+  background: rgb(253, 209, 45);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 209, 45, 1) 0%,
+    rgba(45, 217, 253, 1) 100%
+  );
+}
+.logo1color {
+  color: #0e8342;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+}
+.logo2color {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin-right: 220px;
+  font-style: italic;
+}
+.hka {
+  margin-top: 5px;
+  text-align: left;
+}
+/* logo */
+/* button */
+.button {
+  margin-left: 50px;
+  padding: 16px;
+  top: 50%;
+  background-color: #089933c9;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 120px;
+  cursor: pointer;
+  transition: 200ms linear;
+  border: 2px solid transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  box-shadow: 1px 1px 30px -3px rgba(255, 255, 255, 0.86);
+  -webkit-box-shadow: 1px 1px 30px -3px rgba(255, 255, 255, 0.86);
+  -moz-box-shadow: 1px 1px 30px -3px rgba(255, 255, 255, 0.86);
+}
+.button:active {
+  background-color: #ffbf00;
+}
+.button:hover {
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 77px 11px rgba(255, 255, 255, 0.86);
+  -webkit-box-shadow: 1px 1px 77px 11px rgba(255, 255, 255, 0.86);
+  -moz-box-shadow: 1px 1px 77px 11px rgba(255, 255, 255, 0.86);
+}
+/* button */
+/* menu */
+
+/* calculator block */
+.cal_style {
+  border: #ffffff;
+  padding: 10px;
+  box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  -webkit-box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  -moz-box-shadow: 1px 1px 114px -10px rgba(255, 255, 255, 0.76);
+  border-radius: 12px;
+  width: 685px;
+  position: absolute;
+  top: 12em;
+  height: 58vh;
+  left: 39em;
+  margin-top: 10px;
+}
+
+/* button calculator */
+.btn-group button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 77px;
+  width: 80px;
+  height: 70px;
+  font-size: 22px;
+}
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group button:active {
+  background-color: #ffbf00;
+}
+.btn-group button:hover {
+  border: 2px solid #fff;
+}
+
+/*  */
+.btn-group1 button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 80px;
+  height: 70px;
+  font-size: 22px;
+}
+.btn-group1 button:not(:last-child) {
+  border-right: none;
+}
+.btn-group1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group1 button:active {
+  background-color: #ffbf00;
+}
+
+.btn-group1 button:hover {
+  border: 2px solid #fff;
+}
+
+/*  */
+
+.btn-group2 button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 80px;
+  height: 70px;
+  font-size: 22px;
+}
+.btn-group2 button:not(:last-child) {
+  border-right: none;
+}
+.btn-group2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group2 button:active {
+  background-color: #ffbf00;
+}
+
+.btn-group2 button:hover {
+  border: 2px solid #fff;
+}
+
+/*  */
+.letters button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 80px;
+  height: 70px;
+  font-size: 22px;
+}
+.letters button:not(:last-child) {
+  border-right: none;
+}
+.letters:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.letters button:active {
+  background-color: #ffbf00;
+}
+
+.letters button:hover {
+  border: 2px solid #fff;
+}
+
+/*  */
+.line button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 17px 61.5px;
+  cursor: pointer;
+  float: left;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 165px;
+  height: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.lien button:not(:last-child) {
+  border-right: none;
+}
+.line:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.line button:active {
+  background-color: #ffbf00;
+}
+
+.line button:hover {
+  border: 2px solid #fff;
+}
+
+/* input block */
+.inputt {
+  margin-top: 25px;
+  padding: 24px 36px;
+  width: 670px;
+
+  position: relative;
+  top: 0 ;
+  left: 0px;
+  border-radius: 10px;
+}
+
+.develop button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-top: 50px;
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+}
+.develop button:not(:last-child) {
+  border-right: none;
+}
+.develop:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.develop button:active {
+  background-color: #ffbf00;
+}
+
+.develop button:hover {
+  border: 2px solid #fff;
+}
+
+.develop1 button {
+  background-color: gray;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+  border-radius: 100px;
+ 
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  margin-left: 90px;
+}
+.develop1 button:not(:last-child) {
+  border-right: none;
+}
+.develop1:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.develop1 button:active {
+  background-color: #ffbf00;
+}
+
+.develop1 button:hover {
+  border: 2px solid #fff;
+}
+.deve {
+  display: flex;
+  position: fixed;
+  bottom: 80px;
+  left: 30px;
+  font-style: italic;
+  font-style: 22px;
+  font-size: 20px;
+}
+/* about */
+.block_about {
+  border: #fff;
+  
+  width: 100px;
+  height: 100px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 15px 30px;
+  border-radius: 12px;
+  
+}
